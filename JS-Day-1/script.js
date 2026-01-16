@@ -18,15 +18,20 @@
 // }
 // console.log(sample(5,10))
 
+
+// Asynchronous function : we can move to another task before the previous one finishes its execution. 
+
 // 3. callback function
 // if we pass a function as an argument inside another function
 // callback=demo()
-function sample(callback){
-    console.log("sample");
-    callback();
-}
-function demo(){
-    console.log("demo");
-}
-sample(demo);
+// function sample(callback){
+//     console.log("sample");
+//     callback();
+// }
+// function demo(){
+//     console.log("demo");
+// }
+// sample(demo);
+
+
 
