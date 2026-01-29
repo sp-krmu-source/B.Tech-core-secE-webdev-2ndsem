@@ -85,10 +85,7 @@ console.log(demo2())
 // midterm()
 
 
-
-
-
-let test5 = (function(){
-    return "sample5";
-})()
-console.log(test5)
+// let test5 = (function(){
+//     return "sample5";
+// })()
+// console.log(test5)
