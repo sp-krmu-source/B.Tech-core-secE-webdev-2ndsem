@@ -40,6 +40,3 @@ Object.freeze(car);
 car.model="XUV700";
 car.color = "black";
 console.log(car);
-
-var date =  new Date()
-console.log(date)
