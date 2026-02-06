@@ -20,19 +20,19 @@
 // console.log(demo.innerHTML)
 
 // create a new element and append 
-const newpara = document.createElement("p");
-newpara.textContent = "This is a dynamically created paragraph";
-console.log(newpara)
+// const newpara = document.createElement("p");
+// newpara.textContent = "This is a dynamically created paragraph";
+// console.log(newpara)
 
 document.getElementById("content").append(newpara);
 
 
-// const image=document.createElement("img");
-// image.setAttribute("src","https://krmangalam.edu.in/_next/image?url=%2Fkrmuniversity.webp&w=1200&q=75")
+const image=document.createElement("img");
+image.setAttribute("src","https://krmangalam.edu.in/_next/image?url=%2Fkrmuniversity.webp&w=1200&q=75")
 
-// image.setAttribute("alt","K.R Mangalam");
+image.setAttribute("alt","K.R Mangalam");
 
-// document.getElementById("gallery").append(image);
+document.getElementById("gallery").append(image);
 
 setInterval(() => {
     let date = new Date()
