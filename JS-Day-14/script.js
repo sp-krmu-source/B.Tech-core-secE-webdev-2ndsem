@@ -81,6 +81,27 @@
 // console.log("e");
 
 
+// Interview Trap output question
+// setTimeout(()=>{
+//     console.log("SetTimeout1");
+// },0)
+// function delay() {
+//   return new Promise(resolve => {
+//     setTimeout(() => {
+//       console.log("SetTimeout2");
+//       resolve();
+//     }, 0);
+//   });
+// }
+// function test() {
+//   console.log("Start");
+//   delay();
+//   console.log("After Delay");
+// }
+// test();
+// console.log("End");
+
+
 
 
 
