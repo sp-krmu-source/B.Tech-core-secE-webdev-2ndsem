@@ -113,7 +113,6 @@ async function getData(city) {
         console.log(city);
         console.log(" City Temp: ", data.main.temp);
         console.log("Humidity",data.main.humidity)
-
        
     } catch (err) {
         console.error(err);
